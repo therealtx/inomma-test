@@ -1,0 +1,13 @@
+.form {
+  background: red;
+}
+
+.formItem {
+
+  :global{
+    .ant-picker,
+    .ant-input-number {
+      width: 100%;
+    }
+  }
+}
